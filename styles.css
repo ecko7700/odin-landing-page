@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header, .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 64px;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+}
+.header-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header-text p, .header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
